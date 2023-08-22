@@ -2,11 +2,23 @@
     scroll-behavior: smooth;
   }
   
+  .navbar{
+    background-color: #222;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-container img {
+    margin-right: 5px; 
+  }
+  
 .header {
   background-color: whitesmoke; 
 }
 #wnnaslov{
-color: #222;
+color: whitesmoke;
 font-weight: bold;
 }
 #order{
@@ -15,8 +27,7 @@ font-weight: bold;
 }
 .btn.btn-danger {
   font-size: 18px; 
-  padding: 9px;
-
+  padding: 20px;
 }
 
 @media (max-width: 576px) {
@@ -81,4 +92,76 @@ font-weight: bold;
   .card {
     margin-bottom: 10px;
   }
+}
+.nasadostava{
+  background-color: #222;
+  color: whitesmoke;
+}
+#free{
+  color: rgb(210,17,17);
+}
+
+/*/ moj custom scrollbar /*/
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: whitesmoke; 
+}
+
+
+html {
+  scrollbar-color: #222 whitesmoke;
+}
+
+body {
+  scrollbar-width: thin;
+}
+/* Stilizovanje video pozadine i aboutus sekcija, buckov txt*/
+.aboutus-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+.aboutus-content {
+  position: relative;
+  z-index: 1;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.aboutus-content h2 {
+  font-size: 36px;
+}
+
+.aboutus-content p {
+  font-size: 18px;
+}
+.onamaparag{
+  color: whitesmoke;
+font-weight: bold;
+}
+/*/ footer /*/
+section.footer .bg-secondary {
+  background-color: #222 !important;
 }
