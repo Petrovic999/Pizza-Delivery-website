@@ -18,7 +18,7 @@
   background-color: whitesmoke; 
 }
 #wnnaslov{
-color: whitesmoke;
+color: #28a745;
 font-weight: bold;
 }
 #order{
@@ -51,7 +51,7 @@ font-weight: bold;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #f5f5f5;
+ background-color: #222;
   overflow: hidden; 
 }
 
@@ -59,6 +59,7 @@ font-weight: bold;
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  
 }
 
 
@@ -98,7 +99,13 @@ font-weight: bold;
   color: whitesmoke;
 }
 #free{
-  color: rgb(210,17,17);
+  color: #ffc107;
+}
+#free2{
+  color: #DC3545;
+}
+#dostavah{
+color: #28a745;
 }
 
 /*/ moj custom scrollbar /*/
